@@ -1,0 +1,26 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Inter, Arial; background: #f5f7fb; color: #172033; }
+header { height: 64px; background: #111827; color: white; display: flex; align-items: center; padding: 0 28px; gap: 24px; }
+header strong { font-size: 18px; }
+header span { margin-left: auto; }
+button { border: 0; border-radius: 8px; padding: 10px 14px; cursor: pointer; background: #2563eb; color: white; }
+header button { background: #374151; }
+nav { display: flex; gap: 6px; padding: 14px 28px; background: white; border-bottom: 1px solid #e5e7eb; }
+nav button { background: transparent; color: #4b5563; }
+.active { background: #e8eefc !important; color: #1d4ed8 !important; }
+.content { max-width: 1000px; margin: 36px auto; padding: 0 20px; }
+.cards { display: flex; gap: 16px; }
+.cards div { background: white; padding: 22px; border-radius: 12px; flex: 1; box-shadow: 0 2px 10px #00000008; }
+.cards strong { display: block; font-size: 22px; margin-top: 8px; }
+.list { display: grid; gap: 10px; margin-top: 18px; }
+.list article { background: white; border: 1px solid #e5e7eb; border-radius: 10px; padding: 16px; display: grid; gap: 5px; }
+.list span { font-size: 13px; color: #2563eb; }
+.list small { color: #6b7280; }
+textarea { display: block; width: 100%; min-height: 120px; margin: 16px 0; padding: 14px; border: 1px solid #d1d5db; border-radius: 8px; }
+pre { white-space: pre-wrap; background: white; padding: 18px; border-radius: 10px; margin-top: 18px; }
+.login { min-height: 100vh; display: grid; place-items: center; }
+.login form { width: 360px; background: white; padding: 32px; border-radius: 14px; box-shadow: 0 8px 30px #0001; display: grid; gap: 12px; }
+.login input { padding: 12px; border: 1px solid #d1d5db; border-radius: 8px; }
+.login small { color: #6b7280; }
+.login b { color: #dc2626; }
+@media (max-width: 700px) { header { padding: 0 14px; } header span { display: none; } nav { overflow-x: auto; padding: 10px 14px; } .content { margin: 22px auto; } .cards { flex-direction: column; } .login form { width: min(360px, 90vw); } }
