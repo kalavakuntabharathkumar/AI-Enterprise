@@ -1,0 +1,5 @@
+{
+  "scripts": {"dev": "vite", "build": "vite --host 0.0.0.0"},
+  "dependencies": {"@vitejs/plugin-react": "latest", "vite": "latest", "react": "latest", "react-dom": "latest"},
+  "devDependencies": {}
+}
