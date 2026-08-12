@@ -1,5 +1,7 @@
+.venv/
 __pycache__/
 *.pyc
-.env
+enterprise.db
 node_modules/
-*.db
+dist/
+.env
